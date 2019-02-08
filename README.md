@@ -2,7 +2,10 @@ How to setup your TurtleBot3
 ============================
 1. Preface
 ----------
-* TurtleBot3 system has two different chips: SBC and OpenCR.
+* The guideline given here is based on official ROBOTIS website: http://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup and http://emanual.robotis.com/docs/en/platform/turtlebot3/opencr_setup/#opencr-setup
+* However, the guideline uploaded on official website can make beginners confusing and this README file was written hopefully to help them.
+* Especially, number 2.3 and 2.4 item will greatly help them since it suggests quite different and detailed guideline compared to the one on the official website.
+* TurtleBot3 system has two different chipsets: SBC and OpenCR.
 * This document is written for TurtleBot burger model with Raspberry Pi 3.
 * If you are using other SBC, DO NOT follow the instructions given in number 2.
 * You NEED TO follow the instructions in given order, otherwise it will lead to unintended consequences.

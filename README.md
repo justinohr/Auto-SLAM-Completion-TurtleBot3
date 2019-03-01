@@ -40,11 +40,17 @@ How to setup your TurtleBot3
 * $ git clone http://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 * $ git clone http://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
 * cd ~/catkine_ws && catkin_make
+* If catkin_make instruction hangs for a long time, try to add swap file on your system.
+* In order to make a swap file, follow the following instructions.
+* $ sudo fallocate -l 2G /swapspace
+* $ sudo chmod 600 /swapspace
+* $ sudo mkswap /swapspace
+* $ sudo swapon /swapspace
 
 > 2.4. Configuring network
 --------------------------
 * VERY IMPORTANT: Raspberry Pi 3 CANNOT be connected to the wireless LAN with 5GHz frequency band. It can ONLY be connected to the WLAN with up to 2.4GHz frequency band.
-* First of all, you need to figure both remote PC's and TurtleBot's IP address.
+* First of all, you need to figure out both remote PC's and TurtleBot's IP address.
 * You may check your IP address using ifconfig command on your terminal.
 * Usually, your LAN IP is printed out next to "inet addr".
 * You can change your network configuration by editing ".bashrc" file on your home directory using any editor. (The example here will use vim editor)

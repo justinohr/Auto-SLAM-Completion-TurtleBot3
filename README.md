@@ -60,6 +60,13 @@ How to setup your TurtleBot3
 * Set ROS_MASTER_URI to http://${Remote PC's IP address}:11311
 * e.g.) export ROS_MASTER_URI=http://192.168.1.15:11311
 
+> 2.5. Additional tips
+----------------------
+* If your system indicates that the ROS does not have permission to access ttyACM0, add access rule to your system using the following instruction.
+* $ sudo vim /etc/udev/rules.d/my-usbaccess.rules
+* Write the following into the file
+* KERNEL=="ttyACM0", MODE="0666"
+
 3. OpenCR Setup
 ---------------
 * This document is using shell script method to do OpenCR firmware upload.

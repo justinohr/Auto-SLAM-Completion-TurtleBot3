@@ -39,7 +39,7 @@ How to setup your TurtleBot3
 * $ git clone http://github.com/ROBOTIS-GIT/turtlebot3.git
 * $ git clone http://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 * $ git clone http://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
-* cd ~/catkine_ws && catkin_make
+* $ cd ~/catkin_ws && catkin_make
 * If catkin_make instruction hangs for a long time, try to add swap file on your system.
 * In order to make a swap file, follow the following instructions.
 * $ sudo fallocate -l 2G /swapspace

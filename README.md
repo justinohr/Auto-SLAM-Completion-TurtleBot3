@@ -76,3 +76,9 @@ How to setup your TurtleBot3
 * rm -rf ./opencr_update.tar.bz2
 * $ wget https://github.com/ROBOTIS-GIT/OpenCR-Binaries/raw/master/turtlebot3/ROS1/latest/opencr_update.tar.bz2 && tar -xvf opencr_update.tar.bz2 && cd ./opencr_update && ./update.sh $OPENCR_PORT $OPENCR_MODEL.opencr && cd ..
 * "jump_to_fw" string will be printed on terminal if firmware upload is successfully completed.
+
+How to run your TurtleBot3
+==========================
+* On the terminal of your TurtleBot3 you can make activate all the sensors attached to your TurtleBot3 with the following instructions.
+* $ roslaunch turtlebot3_bringup turtlebot3_robot.launch identifier:=${ANY NUMBER YOU WANT TO GIVE}
+* Note that you must give different number for the identifier between the two different TurtleBot3 machines.

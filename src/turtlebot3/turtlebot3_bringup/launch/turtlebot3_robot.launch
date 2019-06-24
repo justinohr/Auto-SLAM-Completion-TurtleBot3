@@ -1,7 +1,7 @@
 <launch>
-  <arg name="multi_robot_name" default=""/>
-  <arg name="set_lidar_frame_id" default="base_scan"/>
   <arg name="identifier" default="0"/>
+  <arg name="multi_robot_name" value=""/>
+  <arg name="set_lidar_frame_id" value="base_scan"/>
 
   <include file="$(find turtlebot3_bringup)/launch/turtlebot3_core.launch">
     <arg name="multi_robot_name" value="$(arg multi_robot_name)"/>

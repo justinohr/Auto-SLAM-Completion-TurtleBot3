@@ -80,5 +80,5 @@ How to setup your TurtleBot3
 How to run your TurtleBot3
 ==========================
 * On the terminal of your TurtleBot3 you can make activate all the sensors attached to your TurtleBot3 with the following instructions.
-* $ roslaunch turtlebot3_bringup turtlebot3_robot.launch identifier:=${ANY NUMBER YOU WANT TO GIVE}
+* $ roslaunch turtlebot3_bringup turtlebot3_robot.launch identifier:=${ANY NUMBER YOU WANT TO GIVE} 
 * Note that you must give different number for the identifier between the two different TurtleBot3 machines.

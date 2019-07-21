@@ -12,5 +12,7 @@
     <arg name="identifier" value="$(arg identifier)"/>
   </include>
 
-  <node pkg="turtlebot3_bringup" type="turtlebot3_diagnostics" name="turtlebot3_diagnostics_$(arg identifier)" output="screen"/>
+  <group ns="robot_$(arg identifier)">
+    <node pkg="turtlebot3_bringup" type="turtlebot3_diagnostics" name="turtlebot3_diagnostics_$(arg identifier)" output="screen"/>
+  </group>
 </launch>

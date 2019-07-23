@@ -4,7 +4,7 @@
   <arg name="set_lidar_frame_id" value="base_scan"/>
 
   <group ns="robot_$(arg identifier)">
-    <param name="tf_prefix" value="robot_$(arg identifier)_tf"/>
+    <param name="tf_prefix" value="robot_$(arg identifier)"/>
     <include file="$(find turtlebot3_bringup)/launch/turtlebot3_core.launch">
       <arg name="multi_robot_name" value="$(arg multi_robot_name)"/>
       <arg name="identifier" value="$(arg identifier)"/>
